@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        #getUsersBtn {
+            background-color: #1dcb23;
+            color: white;
+        }
+
+        #deleteUserBtn {
+            background-color: #FF0000;
+            color: white;
+        }
+
+        #updateUserBtn {
+            background-color: #008CBA;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    
+    
+    <button id="get-all-users-button">Get Users</button>
+
+    
+    <button id="deleteUserBtn">Delete User</button>
+
+    
+    <button id="updateUserBtn">Update User</button>
+
+
+    <div id="users-data">
+        <h5> Users Data </h5>
+    </div>
+
+    <script src= "../Authentication/Users/Dashboard_users.js"></script>
+    <script src = "../Authentication/delete/delete_users.js"></script>
+    <script src = "../Authentication/update/update_users.js"></script>
+</body>
+</html>
